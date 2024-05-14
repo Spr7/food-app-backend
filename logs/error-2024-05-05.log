@@ -1,0 +1,448 @@
+{
+  error: Error: userDetails validation failed: userLastName: Path `userLastName` is required., userFirstName: Path `userFirstName` is required.
+      at ValidationError.inspect (C:\hotel\shop-backend\node_modules\mongoose\lib\error\validation.js:50:26)
+      at formatValue (node:internal/util/inspect:805:19)
+      at formatProperty (node:internal/util/inspect:1926:11)
+      at formatRaw (node:internal/util/inspect:1054:9)
+      at formatValue (node:internal/util/inspect:840:10)
+      at inspect (node:internal/util/inspect:364:10)
+      at Format.transform (C:\hotel\shop-backend\node_modules\logform\pretty-print.js:27:19)
+      at Format.transform (C:\hotel\shop-backend\node_modules\logform\combine.js:20:24)
+      at DerivedLogger._transform (C:\hotel\shop-backend\node_modules\winston\lib\winston\logger.js:313:29)
+      at DerivedLogger.Transform._read (C:\hotel\shop-backend\node_modules\readable-stream\lib\_stream_transform.js:166:10) {
+    errors: {
+      userLastName: ValidatorError: Path `userLastName` is required.
+          at validate (C:\hotel\shop-backend\node_modules\mongoose\lib\schematype.js:1346:13)
+          at SchemaString.SchemaType.doValidate (C:\hotel\shop-backend\node_modules\mongoose\lib\schematype.js:1330:7)
+          at C:\hotel\shop-backend\node_modules\mongoose\lib\document.js:2954:18
+          at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+        properties: {
+          validator: [Function (anonymous)],
+          message: 'Path `userLastName` is required.',
+          type: 'required',
+          path: 'userLastName',
+          value: undefined
+        },
+        kind: 'required',
+        path: 'userLastName',
+        value: undefined,
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true
+      },
+      userFirstName: ValidatorError: Path `userFirstName` is required.
+          at validate (C:\hotel\shop-backend\node_modules\mongoose\lib\schematype.js:1346:13)
+          at SchemaString.SchemaType.doValidate (C:\hotel\shop-backend\node_modules\mongoose\lib\schematype.js:1330:7)
+          at C:\hotel\shop-backend\node_modules\mongoose\lib\document.js:2954:18
+          at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+        properties: {
+          validator: [Function (anonymous)],
+          message: 'Path `userFirstName` is required.',
+          type: 'required',
+          path: 'userFirstName',
+          value: undefined
+        },
+        kind: 'required',
+        path: 'userFirstName',
+        value: undefined,
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true
+      }
+    },
+    _message: 'userDetails validation failed'
+  },
+  level: 'error',
+  message: '[bug] Unable to add user Details:',
+  timestamp: '2024-05-05T08:57:43.904Z'
+}
+{
+  error: Error: userDetails validation failed: userLastName: Path `userLastName` is required., userFirstName: Path `userFirstName` is required.
+      at ValidationError.inspect (C:\hotel\shop-backend\node_modules\mongoose\lib\error\validation.js:50:26)
+      at formatValue (node:internal/util/inspect:805:19)
+      at formatProperty (node:internal/util/inspect:1926:11)
+      at formatRaw (node:internal/util/inspect:1054:9)
+      at formatValue (node:internal/util/inspect:840:10)
+      at inspect (node:internal/util/inspect:364:10)
+      at Format.transform (C:\hotel\shop-backend\node_modules\logform\pretty-print.js:27:19)
+      at Format.transform (C:\hotel\shop-backend\node_modules\logform\combine.js:20:24)
+      at DerivedLogger._transform (C:\hotel\shop-backend\node_modules\winston\lib\winston\logger.js:313:29)
+      at DerivedLogger.Transform._read (C:\hotel\shop-backend\node_modules\readable-stream\lib\_stream_transform.js:166:10) {
+    errors: {
+      userLastName: ValidatorError: Path `userLastName` is required.
+          at validate (C:\hotel\shop-backend\node_modules\mongoose\lib\schematype.js:1346:13)
+          at SchemaString.SchemaType.doValidate (C:\hotel\shop-backend\node_modules\mongoose\lib\schematype.js:1330:7)
+          at C:\hotel\shop-backend\node_modules\mongoose\lib\document.js:2954:18
+          at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+        properties: {
+          validator: [Function (anonymous)],
+          message: 'Path `userLastName` is required.',
+          type: 'required',
+          path: 'userLastName',
+          value: undefined
+        },
+        kind: 'required',
+        path: 'userLastName',
+        value: undefined,
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true
+      },
+      userFirstName: ValidatorError: Path `userFirstName` is required.
+          at validate (C:\hotel\shop-backend\node_modules\mongoose\lib\schematype.js:1346:13)
+          at SchemaString.SchemaType.doValidate (C:\hotel\shop-backend\node_modules\mongoose\lib\schematype.js:1330:7)
+          at C:\hotel\shop-backend\node_modules\mongoose\lib\document.js:2954:18
+          at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+        properties: {
+          validator: [Function (anonymous)],
+          message: 'Path `userFirstName` is required.',
+          type: 'required',
+          path: 'userFirstName',
+          value: undefined
+        },
+        kind: 'required',
+        path: 'userFirstName',
+        value: undefined,
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true
+      }
+    },
+    _message: 'userDetails validation failed'
+  },
+  level: 'error',
+  message: '[bug] Unable to add user Details:',
+  timestamp: '2024-05-05T09:09:33.395Z'
+}
+{
+  error: Error: userDetails validation failed: userLastName: Path `userLastName` is required., userFirstName: Path `userFirstName` is required.
+      at ValidationError.inspect (C:\hotel\shop-backend\node_modules\mongoose\lib\error\validation.js:50:26)
+      at formatValue (node:internal/util/inspect:805:19)
+      at formatProperty (node:internal/util/inspect:1926:11)
+      at formatRaw (node:internal/util/inspect:1054:9)
+      at formatValue (node:internal/util/inspect:840:10)
+      at inspect (node:internal/util/inspect:364:10)
+      at Format.transform (C:\hotel\shop-backend\node_modules\logform\pretty-print.js:27:19)
+      at Format.transform (C:\hotel\shop-backend\node_modules\logform\combine.js:20:24)
+      at DerivedLogger._transform (C:\hotel\shop-backend\node_modules\winston\lib\winston\logger.js:313:29)
+      at DerivedLogger.Transform._read (C:\hotel\shop-backend\node_modules\readable-stream\lib\_stream_transform.js:166:10) {
+    errors: {
+      userLastName: ValidatorError: Path `userLastName` is required.
+          at validate (C:\hotel\shop-backend\node_modules\mongoose\lib\schematype.js:1346:13)
+          at SchemaString.SchemaType.doValidate (C:\hotel\shop-backend\node_modules\mongoose\lib\schematype.js:1330:7)
+          at C:\hotel\shop-backend\node_modules\mongoose\lib\document.js:2954:18
+          at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+        properties: {
+          validator: [Function (anonymous)],
+          message: 'Path `userLastName` is required.',
+          type: 'required',
+          path: 'userLastName',
+          value: undefined
+        },
+        kind: 'required',
+        path: 'userLastName',
+        value: undefined,
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true
+      },
+      userFirstName: ValidatorError: Path `userFirstName` is required.
+          at validate (C:\hotel\shop-backend\node_modules\mongoose\lib\schematype.js:1346:13)
+          at SchemaString.SchemaType.doValidate (C:\hotel\shop-backend\node_modules\mongoose\lib\schematype.js:1330:7)
+          at C:\hotel\shop-backend\node_modules\mongoose\lib\document.js:2954:18
+          at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+        properties: {
+          validator: [Function (anonymous)],
+          message: 'Path `userFirstName` is required.',
+          type: 'required',
+          path: 'userFirstName',
+          value: undefined
+        },
+        kind: 'required',
+        path: 'userFirstName',
+        value: undefined,
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true
+      }
+    },
+    _message: 'userDetails validation failed'
+  },
+  level: 'error',
+  message: '[bug] Unable to add user Details:',
+  timestamp: '2024-05-05T09:11:11.894Z'
+}
+{
+  error: Error: userDetails validation failed: userLastName: Path `userLastName` is required., userFirstName: Path `userFirstName` is required.
+      at ValidationError.inspect (C:\hotel\shop-backend\node_modules\mongoose\lib\error\validation.js:50:26)
+      at formatValue (node:internal/util/inspect:805:19)
+      at formatProperty (node:internal/util/inspect:1926:11)
+      at formatRaw (node:internal/util/inspect:1054:9)
+      at formatValue (node:internal/util/inspect:840:10)
+      at inspect (node:internal/util/inspect:364:10)
+      at Format.transform (C:\hotel\shop-backend\node_modules\logform\pretty-print.js:27:19)
+      at Format.transform (C:\hotel\shop-backend\node_modules\logform\combine.js:20:24)
+      at DerivedLogger._transform (C:\hotel\shop-backend\node_modules\winston\lib\winston\logger.js:313:29)
+      at DerivedLogger.Transform._read (C:\hotel\shop-backend\node_modules\readable-stream\lib\_stream_transform.js:166:10) {
+    errors: {
+      userLastName: ValidatorError: Path `userLastName` is required.
+          at validate (C:\hotel\shop-backend\node_modules\mongoose\lib\schematype.js:1346:13)
+          at SchemaString.SchemaType.doValidate (C:\hotel\shop-backend\node_modules\mongoose\lib\schematype.js:1330:7)
+          at C:\hotel\shop-backend\node_modules\mongoose\lib\document.js:2954:18
+          at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+        properties: {
+          validator: [Function (anonymous)],
+          message: 'Path `userLastName` is required.',
+          type: 'required',
+          path: 'userLastName',
+          value: undefined
+        },
+        kind: 'required',
+        path: 'userLastName',
+        value: undefined,
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true
+      },
+      userFirstName: ValidatorError: Path `userFirstName` is required.
+          at validate (C:\hotel\shop-backend\node_modules\mongoose\lib\schematype.js:1346:13)
+          at SchemaString.SchemaType.doValidate (C:\hotel\shop-backend\node_modules\mongoose\lib\schematype.js:1330:7)
+          at C:\hotel\shop-backend\node_modules\mongoose\lib\document.js:2954:18
+          at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+        properties: {
+          validator: [Function (anonymous)],
+          message: 'Path `userFirstName` is required.',
+          type: 'required',
+          path: 'userFirstName',
+          value: undefined
+        },
+        kind: 'required',
+        path: 'userFirstName',
+        value: undefined,
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true
+      }
+    },
+    _message: 'userDetails validation failed'
+  },
+  level: 'error',
+  message: '[bug] Unable to add user Details:',
+  timestamp: '2024-05-05T09:18:05.901Z'
+}
+{
+  error: Error: userDetails validation failed: userLastName: Path `userLastName` is required., userFirstName: Path `userFirstName` is required.
+      at ValidationError.inspect (C:\hotel\shop-backend\node_modules\mongoose\lib\error\validation.js:50:26)
+      at formatValue (node:internal/util/inspect:805:19)
+      at formatProperty (node:internal/util/inspect:1926:11)
+      at formatRaw (node:internal/util/inspect:1054:9)
+      at formatValue (node:internal/util/inspect:840:10)
+      at inspect (node:internal/util/inspect:364:10)
+      at Format.transform (C:\hotel\shop-backend\node_modules\logform\pretty-print.js:27:19)
+      at Format.transform (C:\hotel\shop-backend\node_modules\logform\combine.js:20:24)
+      at DerivedLogger._transform (C:\hotel\shop-backend\node_modules\winston\lib\winston\logger.js:313:29)
+      at DerivedLogger.Transform._read (C:\hotel\shop-backend\node_modules\readable-stream\lib\_stream_transform.js:166:10) {
+    errors: {
+      userLastName: ValidatorError: Path `userLastName` is required.
+          at validate (C:\hotel\shop-backend\node_modules\mongoose\lib\schematype.js:1346:13)
+          at SchemaString.SchemaType.doValidate (C:\hotel\shop-backend\node_modules\mongoose\lib\schematype.js:1330:7)
+          at C:\hotel\shop-backend\node_modules\mongoose\lib\document.js:2954:18
+          at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+        properties: {
+          validator: [Function (anonymous)],
+          message: 'Path `userLastName` is required.',
+          type: 'required',
+          path: 'userLastName',
+          value: undefined
+        },
+        kind: 'required',
+        path: 'userLastName',
+        value: undefined,
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true
+      },
+      userFirstName: ValidatorError: Path `userFirstName` is required.
+          at validate (C:\hotel\shop-backend\node_modules\mongoose\lib\schematype.js:1346:13)
+          at SchemaString.SchemaType.doValidate (C:\hotel\shop-backend\node_modules\mongoose\lib\schematype.js:1330:7)
+          at C:\hotel\shop-backend\node_modules\mongoose\lib\document.js:2954:18
+          at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+        properties: {
+          validator: [Function (anonymous)],
+          message: 'Path `userFirstName` is required.',
+          type: 'required',
+          path: 'userFirstName',
+          value: undefined
+        },
+        kind: 'required',
+        path: 'userFirstName',
+        value: undefined,
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true
+      }
+    },
+    _message: 'userDetails validation failed'
+  },
+  level: 'error',
+  message: '[bug] Unable to add user Details:',
+  timestamp: '2024-05-05T09:20:43.909Z'
+}
+{
+  error: Error: userDetails validation failed: userLastName: Path `userLastName` is required., userFirstName: Path `userFirstName` is required.
+      at ValidationError.inspect (C:\hotel\shop-backend\node_modules\mongoose\lib\error\validation.js:50:26)
+      at formatValue (node:internal/util/inspect:805:19)
+      at formatProperty (node:internal/util/inspect:1926:11)
+      at formatRaw (node:internal/util/inspect:1054:9)
+      at formatValue (node:internal/util/inspect:840:10)
+      at inspect (node:internal/util/inspect:364:10)
+      at Format.transform (C:\hotel\shop-backend\node_modules\logform\pretty-print.js:27:19)
+      at Format.transform (C:\hotel\shop-backend\node_modules\logform\combine.js:20:24)
+      at DerivedLogger._transform (C:\hotel\shop-backend\node_modules\winston\lib\winston\logger.js:313:29)
+      at DerivedLogger.Transform._read (C:\hotel\shop-backend\node_modules\readable-stream\lib\_stream_transform.js:166:10) {
+    errors: {
+      userLastName: ValidatorError: Path `userLastName` is required.
+          at validate (C:\hotel\shop-backend\node_modules\mongoose\lib\schematype.js:1346:13)
+          at SchemaString.SchemaType.doValidate (C:\hotel\shop-backend\node_modules\mongoose\lib\schematype.js:1330:7)
+          at C:\hotel\shop-backend\node_modules\mongoose\lib\document.js:2954:18
+          at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+        properties: {
+          validator: [Function (anonymous)],
+          message: 'Path `userLastName` is required.',
+          type: 'required',
+          path: 'userLastName',
+          value: undefined
+        },
+        kind: 'required',
+        path: 'userLastName',
+        value: undefined,
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true
+      },
+      userFirstName: ValidatorError: Path `userFirstName` is required.
+          at validate (C:\hotel\shop-backend\node_modules\mongoose\lib\schematype.js:1346:13)
+          at SchemaString.SchemaType.doValidate (C:\hotel\shop-backend\node_modules\mongoose\lib\schematype.js:1330:7)
+          at C:\hotel\shop-backend\node_modules\mongoose\lib\document.js:2954:18
+          at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+        properties: {
+          validator: [Function (anonymous)],
+          message: 'Path `userFirstName` is required.',
+          type: 'required',
+          path: 'userFirstName',
+          value: undefined
+        },
+        kind: 'required',
+        path: 'userFirstName',
+        value: undefined,
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true
+      }
+    },
+    _message: 'userDetails validation failed'
+  },
+  level: 'error',
+  message: '[bug] Unable to add user Details:',
+  timestamp: '2024-05-05T09:22:35.573Z'
+}
+{
+  error: Error: userDetails validation failed: password: Path `password` is required., userName: Path `userName` is required.
+      at ValidationError.inspect (C:\hotel\shop-backend\node_modules\mongoose\lib\error\validation.js:50:26)
+      at formatValue (node:internal/util/inspect:805:19)
+      at formatProperty (node:internal/util/inspect:1926:11)
+      at formatRaw (node:internal/util/inspect:1054:9)
+      at formatValue (node:internal/util/inspect:840:10)
+      at inspect (node:internal/util/inspect:364:10)
+      at Format.transform (C:\hotel\shop-backend\node_modules\logform\pretty-print.js:27:19)
+      at Format.transform (C:\hotel\shop-backend\node_modules\logform\combine.js:20:24)
+      at DerivedLogger._transform (C:\hotel\shop-backend\node_modules\winston\lib\winston\logger.js:313:29)
+      at DerivedLogger.Transform._read (C:\hotel\shop-backend\node_modules\readable-stream\lib\_stream_transform.js:166:10) {
+    errors: {
+      password: ValidatorError: Path `password` is required.
+          at validate (C:\hotel\shop-backend\node_modules\mongoose\lib\schematype.js:1346:13)
+          at SchemaString.SchemaType.doValidate (C:\hotel\shop-backend\node_modules\mongoose\lib\schematype.js:1330:7)
+          at C:\hotel\shop-backend\node_modules\mongoose\lib\document.js:2954:18
+          at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+        properties: {
+          validator: [Function (anonymous)],
+          message: 'Path `password` is required.',
+          type: 'required',
+          path: 'password',
+          value: undefined
+        },
+        kind: 'required',
+        path: 'password',
+        value: undefined,
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true
+      },
+      userName: ValidatorError: Path `userName` is required.
+          at validate (C:\hotel\shop-backend\node_modules\mongoose\lib\schematype.js:1346:13)
+          at SchemaString.SchemaType.doValidate (C:\hotel\shop-backend\node_modules\mongoose\lib\schematype.js:1330:7)
+          at C:\hotel\shop-backend\node_modules\mongoose\lib\document.js:2954:18
+          at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+        properties: {
+          validator: [Function (anonymous)],
+          message: 'Path `userName` is required.',
+          type: 'required',
+          path: 'userName',
+          value: undefined
+        },
+        kind: 'required',
+        path: 'userName',
+        value: undefined,
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true
+      }
+    },
+    _message: 'userDetails validation failed'
+  },
+  level: 'error',
+  message: '[bug] Unable to add user Details:',
+  timestamp: '2024-05-05T12:13:00.624Z'
+}
+{
+  error: Error: userDetails validation failed: password: Path `password` is required., userName: Path `userName` is required.
+      at ValidationError.inspect (C:\hotel\shop-backend\node_modules\mongoose\lib\error\validation.js:50:26)
+      at formatValue (node:internal/util/inspect:805:19)
+      at formatProperty (node:internal/util/inspect:1926:11)
+      at formatRaw (node:internal/util/inspect:1054:9)
+      at formatValue (node:internal/util/inspect:840:10)
+      at inspect (node:internal/util/inspect:364:10)
+      at Format.transform (C:\hotel\shop-backend\node_modules\logform\pretty-print.js:27:19)
+      at Format.transform (C:\hotel\shop-backend\node_modules\logform\combine.js:20:24)
+      at DerivedLogger._transform (C:\hotel\shop-backend\node_modules\winston\lib\winston\logger.js:313:29)
+      at DerivedLogger.Transform._read (C:\hotel\shop-backend\node_modules\readable-stream\lib\_stream_transform.js:166:10) {
+    errors: {
+      password: ValidatorError: Path `password` is required.
+          at validate (C:\hotel\shop-backend\node_modules\mongoose\lib\schematype.js:1346:13)
+          at SchemaString.SchemaType.doValidate (C:\hotel\shop-backend\node_modules\mongoose\lib\schematype.js:1330:7)
+          at C:\hotel\shop-backend\node_modules\mongoose\lib\document.js:2954:18
+          at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+        properties: {
+          validator: [Function (anonymous)],
+          message: 'Path `password` is required.',
+          type: 'required',
+          path: 'password',
+          value: undefined
+        },
+        kind: 'required',
+        path: 'password',
+        value: undefined,
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true
+      },
+      userName: ValidatorError: Path `userName` is required.
+          at validate (C:\hotel\shop-backend\node_modules\mongoose\lib\schematype.js:1346:13)
+          at SchemaString.SchemaType.doValidate (C:\hotel\shop-backend\node_modules\mongoose\lib\schematype.js:1330:7)
+          at C:\hotel\shop-backend\node_modules\mongoose\lib\document.js:2954:18
+          at processTicksAndRejections (node:internal/process/task_queues:77:11) {
+        properties: {
+          validator: [Function (anonymous)],
+          message: 'Path `userName` is required.',
+          type: 'required',
+          path: 'userName',
+          value: undefined
+        },
+        kind: 'required',
+        path: 'userName',
+        value: undefined,
+        reason: undefined,
+        [Symbol(mongoose:validatorError)]: true
+      }
+    },
+    _message: 'userDetails validation failed'
+  },
+  level: 'error',
+  message: '[bug] Unable to add user Details:',
+  timestamp: '2024-05-05T12:13:22.465Z'
+}

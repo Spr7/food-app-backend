@@ -1,0 +1,31 @@
+name: Node.js CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '18.17.1'  # Specify your desired Node.js version
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Build
+      run: npm run build  # Replace with your build command
+
+    - name: ci
+      run: npm run ci  # Replace with your test command
